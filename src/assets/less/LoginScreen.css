@@ -1,0 +1,136 @@
+.loginContainer{
+    background-color: #FFE6C9;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+
+    .loginPage{
+        display: flex !important;
+        height: 38em;
+        align-items: center;
+        justify-content: center;
+        width: 65%;
+        background-color: white;
+        border-radius: 40px;
+        box-shadow: 2px 2px black;
+      
+        .leftPane{
+            width: 58%;
+            height: 37em;
+            border-radius: 30px 0 0 30px;
+            background-image: url("https://umamahesh.s3.ap-south-1.amazonaws.com/ReactSample/loginPage/label1.png") ;
+            background-size: 100% 100%;
+            display: flex;
+            justify-content: center;
+            align-items:flex-end ; 
+        }
+        .rightPane{
+            width: 40%;
+            height: 37em;
+            /* background-color: white; */
+            border-radius: 0 30px 30px 0;
+            /* position: relative; */
+            display: flex;
+            justify-content: center;
+            align-items:center ;
+            flex-direction: column;
+            text-align: left;
+            .rightPanetext{
+                display: flex;
+                justify-content: center;
+                align-items:flex-start ;
+                flex-direction: column;
+                
+                .leftPaneColonImg{
+                    width: 35px;
+                    height: 35px;
+                }
+                .rightPanetext1{
+                    font-size: 22px;
+                    font-weight: bold;
+                    font-family: 'Nunito Sans', sans-serif;
+                    color: #525252;
+                    margin-top: 10px;
+                    margin-bottom: 0px;
+               
+                }
+                .rightPanetext2{
+                    font-size: 11px;
+                    font-family: 'Nunito Sans', sans-serif;
+                    color: #525252;
+                    margin-top: 5px;
+                    margin-bottom: 20px;
+
+                }
+            }
+            .rightPanetop{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                .rightPanetext3{
+                    border: 2px solid #E8E8E8;
+                    border-radius: 5px;
+                    color: #828282;
+                    font-family: 'Nunito Sans', sans-serif;
+                    font-size: 12px;
+                    font-weight: bold;
+                    padding: 8px 30px 8px 30px;
+                    margin: 0;
+                    width:110%;
+                    gap:10px;
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items:center ;
+                    margin-bottom: 6px;
+                    .rightPaneimg1{
+                        /* padding-left: 30px; */
+                        width: 20px;
+                        height: 20px; 
+                    }
+                }
+                .rightPanetext4{
+                    font-family: 'Nunito Sans', sans-serif;
+                    color: #828282;
+                    font-size: 8px;
+                }
+            }
+            .rightPaneForm{
+                margin-top: 15px;
+                width: 62%;
+                .formLabel{
+                    font-family: 'Nunito Sans', sans-serif;
+                    color: #828282;
+                    font-size: 12px;
+                    font-weight:600;
+
+                }
+            }
+        }
+    }
+}
+
+.leftPanepdiv{
+    display: flex;
+    justify-content: flex-end;
+    align-items:center ; 
+    flex-direction: column;
+    padding: 37px;
+    .leftPanetext1{
+        font-size: 22px;
+        font-weight: bold;
+        font-family: 'Nunito Sans', sans-serif;
+        color: #73114B;
+        margin-bottom: 0px; 
+    }
+    .leftPanetext2{
+        font-size: 13px;
+        font-weight:600;
+        font-family: 'Nunito Sans', sans-serif;
+        color: #73114B;
+        margin-top: 5px; 
+
+    }
+
+} 
+
